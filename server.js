@@ -15,7 +15,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
             .map((result) => result.transcript)
             .join("");
 
-        // recognition.lang = 'de-DE';
+        // recognition.lang = 'EN';
 
         p.innerText = text;
 
