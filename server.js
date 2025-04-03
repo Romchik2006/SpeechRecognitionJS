@@ -56,7 +56,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
     // დაწყება
     recognition.start();
 } else {
-    console.error("SpeechRecognition is not supported in this browser.");
+    
     feedback.innerText = "Speech recognition is not supported in this browser.";
 }
 
